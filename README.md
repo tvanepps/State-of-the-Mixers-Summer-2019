@@ -27,6 +27,7 @@ I received significant input on this from the Semaphore Telegram channel, specif
     * SNARKs
     * Ring Signatures
 * Mixer List
+    * ⭐ Mixer Benchmarks ⭐
     * SNARK Based
         * Miximus
         * Semaphore Mixer (Active)
@@ -343,4 +344,4 @@ Status: Unmaintained
 9. Explore incentivised mixer mechanisms. For example, incentivising anonymity set participation. (more research needed to determine viability, some [arguments against here](https://ethresear.ch/t/against-anonymity-pool-incentives/6011).
 10. A strong focus on **security auditing and standardizing cryptographic components** would be beneficial for current and future efforts. (CIRCOM lib audit, websnark - prover written in WAss., solidity verifier audit)
 11. UX studies of which factors are important (which numbers  displayed) (# since last withdrawal vs deposit)
-12. Experiment with [xDAI chain](https://poa.network/xdai) for more complex experiments (no gas limitations)
+12. Experiment with [xDAI chain](https://poa.network/xdai) for more complex experiments (fewer gas limitations)
