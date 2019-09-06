@@ -6,9 +6,7 @@ A survey of active mixer efforts on Ethereum, including history, context and ben
 
 ## Summary
 
-Observers of the Ethereum ecosystem have their attention constantly full of inputs and new developments, which has the paradoxical efect of making bandwidth seem very full, and time very slow.
-
-Given these conditions, it's sometimes challenging to sort out which kernels of ideas should be funded, either as a public good or for-profit. Sustainability models for each are only beginning to be sorted out. 
+Observers of the Ethereum ecosystem have their attention constantly full of inputs and new developments, which has the paradoxical efect of making bandwidth seem very full, and time very slow. Given these conditions, it's sometimes challenging to sort out which kernels of ideas should be funded, either as a public good or for-profit. Sustainability models for each are only beginning to be sorted out. 
 
 The on-chain mixer vertical (if it can be called that) also experiences this. Many academic papers are written but they are deployed on chain. Small, agile teams have the ability to iterate quickly but at the cost of a long term execution (so far). 
 
@@ -18,9 +16,7 @@ Also included is general tradeoffs and considerations for Snarks / Ring Signatur
 
 This survey will give most attention to simple mixers, ie, swapping ether for ether, and then exiting. There are more ambitious projects much larger in scope that allow transfers within the contract, effectively creating deep pools of private value transfer. Future versions of mixers may attempt to graduate to this stage as well.
 
-I received significant input on this from the Semaphore Telegram channel, specifically Haarorld, Roman (tornado.cash) Barrywhitehat. Thank you as well to the mixer teams who answered my many questions. 🙏
-
-If there is any incorrect or missing information please make a PR or message me and I will do my best to maintain.
+I received significant input on this from the Semaphore Telegram channel, specifically Haarorld, Roman (tornado.cash) Barrywhitehat. Thank you as well to the mixer teams who answered my many questions. 🙏 If there is any incorrect or missing information please make a PR or message me and I will do my best to maintain.
 
 ## Outline
 
