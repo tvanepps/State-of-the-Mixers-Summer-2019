@@ -2,17 +2,7 @@
 
 *Latest revision September 5th, 2019*
 
-A survey of active mixer efforts on Ethereum, including history, context and benchmarks.
-
-## Summary
-
-This document is meant to serve as a general overview of all mixer efforts currently in development for Ethereum. Requested by Moloch, in the interest of reducing information overhead and duplicative efforts for current teams and prospective developers. 👹
-
-Also included is general tradeoffs and considerations for Snarks / Ring Signatures. Developers looking to create their own mixer will hopefully be able to use this as a reference.
-
-This survey will give most attention to simple mixers, ie, swapping ether for ether, and then exiting. There are more ambitious projects much larger in scope that allow transfers within the contract, effectively creating deep pools of private value transfer. Future versions of mixers may attempt to graduate to this stage as well.
-
-I received significant input on this from the Semaphore Telegram channel, specifically Haarorld, Roman (tornado.cash) Barrywhitehat. Thank you as well to the mixer teams who answered my many questions. 🙏 If there is any incorrect or missing information please make a PR or message me and I will do my best to maintain.
+A survey of active on-chain mixer efforts for Ethereum, including history, context and benchmarks.
 
 ## Outline
 
@@ -40,6 +30,15 @@ I received significant input on this from the Semaphore Telegram channel, specif
     * Others
         * ShareLock
 
+## Summary
+
+This document is meant to serve as a general overview of all mixer efforts currently in development for Ethereum. Requested by Moloch, in the interest of reducing information overhead and duplicative efforts for current teams and prospective developers. 👹
+
+Also included is general tradeoffs and considerations for Snarks / Ring Signatures. Developers looking to create their own mixer will hopefully be able to use this as a reference.
+
+This survey will give most attention to simple mixers, ie, swapping ether for ether, and then exiting. There are more ambitious projects much larger in scope that allow transfers within the contract, effectively creating deep pools of private value transfer. Future versions of mixers may attempt to graduate to this stage as well.
+
+I received significant input on this from the Semaphore Telegram channel, specifically Haarorld, Roman (tornado.cash) Barrywhitehat. Thank you as well to the mixer teams who answered my many questions. 🙏 If there is any incorrect or missing information please make a PR or message me and I will do my best to maintain.
 
 ## Strategic importance of mixers 
 In the early days of Ethereum, before mining was inundated with highly specialised ASICs, it was relatively easy to get new Ether directly from the network. With a modest hardware setup, users could participate in network consensus and be rewarded with enough Ether to use on the platform. In this state, users were given several important advantages: 
