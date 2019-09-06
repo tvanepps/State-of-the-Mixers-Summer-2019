@@ -137,6 +137,14 @@ The final output of a mixer heavily depends on the foundational cryptographic co
 4. Relatively cheap to compute proof/signature
 5. Anonymity set can be limited depending on the interval between first deposit and withdrawal (first withdrawal ends ring deposits and starts new rings)
 
+### Threshold Signatures
+
+1. Signature generation is an off-chain interactive protocol
+2. Verification happens on-chain and it always costs a single ECDSA signature verification. This means that on-chain costs are independent from the number of  mixing participants. 
+3. No trusted setup (a.k.a no 'toxic waste')
+4. Solves the gas-payer linkability problem, therefore funds are redeemable immediately
+5. Anonymity set size is not limited
+
 
 # MIXER LIST
 
@@ -149,6 +157,7 @@ The majority of mixers on Ethereum under active development are SNARK based. The
 | **Hopper**|<1mm|~660k|15|32,768|10,000 (iPhone 7)|~700|~65k|-| 
 | **Tornado**|888,054|692,133|16|65,536|6,116 (browser)|-|-|10 / 32|
 | **Heiswap**|<200,000|~1,250,000|n/a|n/a|-|-|-|-|
+| **ShareLock**|21,000|21,000|0|0|~1sec|0|0|0|
 
 ## Snark based
 
@@ -304,7 +313,7 @@ Status: Unmaintained
 
 ---
 
-## Others
+## Threshold-signature based
 
 ### ShareLock
 
@@ -312,7 +321,10 @@ Status: Unmaintained
    * [EthResearch Post](https://ethresear.ch/t/sharelock-mixing-for-cryptocurrencies-from-multiparty-ecdsa/5525) 
    * [GitHub Post](https://github.com/KZen-networks/ShareLock)
 
-> Instead of ring signatures being computed on-chain, this scheme uses an interactive aggregate signature mechanism to sever the link between depositor and withdrawee. This means it costs the same as a regular ethereum transaction without any additional on-chain overhead.
+Instead of ring signatures or zero-knowledge proofs being verified on-chain, this scheme uses an interactive aggregate signature mechanism to sever the link between depositor and withdrawee. This means it costs the same as a regular ethereum transaction without any additional on-chain overhead. Most likely, ShareLock is the most scalable mixer out there. Moreover, ShareLock does not rely on any yet-to-be-deployed relayer network and does not require a trusted setup. In the referenced paper security (anonymity, theft prevention, mixer availability) is proven formally in the Universal Composability (UC) framework. 
+
+The creators of ShareLock also think, that the deposit+withdraw flow is a terrible user experience. ShareLock needs a single off-chain threshold signing phase (takes less than a second) and afterwards mixed funds are immediately redeemable. 
+
 
 
 ---
