@@ -1,7 +1,5 @@
 # STATE OF THE MIXERS: SUMMER 2019
 
-*Latest revision September 5th, 2019*
-
 A survey of active on-chain mixer efforts for Ethereum, including history, context and benchmarks.
 
 ## Outline
