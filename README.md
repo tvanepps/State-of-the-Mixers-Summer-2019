@@ -6,30 +6,31 @@ A survey of active on-chain mixer efforts for Ethereum, including history, conte
 
 ## Outline
 
-* Summary
-* Strategic importance of mixers
-* BTC coinjoin context / prior art
-* Abstract Tradeoffs
-    * SNARKs
-    * Ring Signatures
-* Mixer List
+* [Summary](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#summary)
+* [Strategic importance of mixers](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#strategic-importance-of-mixers)
+* [BTC coinjoin context / prior art](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#btc-coinjoin-context--prior-art)
+* [Abstract Tradeoffs](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#abstract-tradeoffs)
+    * [SNARKs](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#snarks)
+    * [Ring Signatures](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#ring-signatures)
+* [Mixer List](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#mixer-list)
     * ⭐ Mixer Benchmarks ⭐
-    * SNARK Based
-        * Miximus
-        * Semaphore Mixer (Active)
-        * Hopper (active)
-        * K0 (active)
-        * Zeth
-        * Tornado Mixer (active)
-    * Ring Signature Based
-        * Heiswap (Active)
-        * RingToken
-        * Ethereum-RingCT
-        * SolidBlu1992
-        * Mobius
+    * [SNARK Based](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#snark-based)
+        * [Miximus](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#miximus)
+        * [Semaphore Mixer (Active)](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#ethsnarks-miximus)
+        * [Hopper (active)](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#semaphore-mixer)
+        * [K0 (active)](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#k0)
+        * [Zeth](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#zeth)
+        * [Tornado Mixer (active)](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#tornado-mixer)
+    * [Ring Signature Based](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#ring-signature-based)
+        * [Heiswap (Active)](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#heiswap)
+        * [Ethereum-RingCT](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#ethereum-ringct)
+        * [RingToken](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#ringtoken)
+        * [SolidBlu1992](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#solidblu1992)
+        * [Mobius](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#mobius)
+        * [Laundromat](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#laundromat)
     * Others
-        * ShareLock
-
+        * [ShareLock](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#sharelock)
+    * [⭐ Recommendations for continued efforts ⭐](https://github.com/tvanepps/State-of-the-Mixers-Summer-2019/blob/master/README.md#recommendations-for-continued-efforts)
 ## Summary
 
 This document is meant to serve as a general overview of all mixer efforts currently in development for Ethereum. Requested by Moloch, in the interest of reducing information overhead and duplicative efforts for current teams and prospective developers. 👹
