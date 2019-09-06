@@ -6,10 +6,6 @@ A survey of active mixer efforts on Ethereum, including history, context and ben
 
 ## Summary
 
-Observers of the Ethereum ecosystem have their attention constantly full of inputs and new developments, which has the paradoxical efect of making bandwidth seem very full, and time very slow. Given these conditions, it's sometimes challenging to sort out which kernels of ideas should be funded, either as a public good or for-profit. Sustainability models for each are only beginning to be sorted out. 
-
-The on-chain mixer vertical (if it can be called that) also experiences this. Many academic papers are written but they are deployed on chain. Small, agile teams have the ability to iterate quickly but at the cost of a long term execution (so far). 
-
 This document is meant to serve as a general overview of all mixer efforts currently in development for Ethereum. Requested by Moloch, in the interest of reducing information overhead and duplicative efforts for current teams and prospective developers. 👹
 
 Also included is general tradeoffs and considerations for Snarks / Ring Signatures. Developers looking to create their own mixer will hopefully be able to use this as a reference.
