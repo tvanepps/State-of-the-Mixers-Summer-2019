@@ -142,14 +142,6 @@ The final output of a mixer heavily depends on the foundational cryptographic co
 
 The majority of mixers on Ethereum under active development are SNARK based. The following chart compiles a variety of relevant benchmarks to compare across implementations.
 
-|  |Deposit Cost|Withdraw Cost|MT Depth|MT Max items|AVG Proving time (ms)|Constraints per-level|Constraints overhead|User Keys (zipped / expanded) (mb)|
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-|**Miximus** |1,886,209|605,181|29|536,870,912|3,600 (native)|812|-|7 / 11|
-| **Semaphore**|1,146,008|816,249|20|1,048,576|63,000 (browser)|1,320|-|40 / 176|
-| **Hopper**|<1mm|~660k|15|32,768|10,000 (iPhone 7)|~700|~65k|-| 
-| **Tornado**|888,054|692,133|16|65,536|6,116 (browser)|-|-|10 / 32|
-| **Heiswap**|<200,000|~1,250,000|n/a|n/a|-|-|-|-|
-
 |  |**Miximus**|**Semaphore**|**Hopper**|**Tornado**|**Heiswap**|
 |---|---:|---:|---:|---:|---:|
 | Deposit Cost | 1,886,209 |1,146,008|<1mm|888,054|<200,000|
@@ -160,7 +152,6 @@ The majority of mixers on Ethereum under active development are SNARK based. The
 | Constraints per-level |812|1,320|~700|-|-|
 | Constraints overhead | - |-|~65k|-|-|
 | User Keys (zipped / expanded) (mb) | 7 / 11 | 40 / 176 |-|10 / 32|-|
-
 
 ## Snark based
 
