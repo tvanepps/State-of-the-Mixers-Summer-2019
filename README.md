@@ -150,6 +150,18 @@ The majority of mixers on Ethereum under active development are SNARK based. The
 | **Tornado**|888,054|692,133|16|65,536|6,116 (browser)|-|-|10 / 32|
 | **Heiswap**|<200,000|~1,250,000|n/a|n/a|-|-|-|-|
 
+|  |**Miximus**|**Semaphore**|**Hopper**|**Tornado**|**Heiswap**|
+|---|---:|---:|---:|---:|---:|
+| Deposit Cost | 1,886,209 |1,146,008|<1mm|888,054|<200,000|
+| Withdraw Cost | 605,181 |816,249|~660k|692,133|~1,250,000|
+| MT Depth | 29 |20|15|16|n/a|
+| MT Max items | 536,870,912 |1,048,576|32,768|65,536|n/a|
+| AVG Proving time (ms) | 3,600 (native) |63,000 (browser)|10,000 (iPhone 7)|6,116 (browser)|-|
+| Constraints per-level |812|1,320|~700|-|-|
+| Constraints overhead | - |-|~65k|-|-|
+| User Keys (zipped / expanded) (mb) | 7 / 11 | 40 / 176 |-|10 / 32|-|
+
+
 ## Snark based
 
  * TODO: https://github.com/apguerrera/MinimalMixer
