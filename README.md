@@ -46,7 +46,7 @@ In the early days of Ethereum, before mining was inundated with highly specialis
 2. No potentially malicious intermediaries / onramps could interfere, as exists today in varying degrees through exchanges and local services.
 3. Mining is permissionless - meaning there are addresses from that time which will never have legacy identities associated with them. By not having to go through an exchange (and following opsec best practices), there's a low likelihood of ever getting targeted for theft and extortion.
 
-Given the relatively high levels of mining difficulty and the uncertainty of local transfers, getting uncompromised Ether is nearly impossible today. Properly implemented mixers promise to restore at least a degree of this past, making them incredibly useful for any community that emphasises norms like sovereignty and strong privacy. 
+Given the relatively high levels of mining difficulty and the uncertainty of local offline transfers, getting uncompromised Ether is nearly impossible today. Properly implemented mixers promise to restore at least a degree of this past, making them incredibly useful for any community that emphasises norms like sovereignty and strong privacy. 
 
 However, it's important to state that individual mixers at the application layer will never provide absolute privacy to users, only probabilistic guarantees. As with many mechanisms, it depends which tradeoffs were made in pursuit of which goals. This survey will explore these  further.
 
