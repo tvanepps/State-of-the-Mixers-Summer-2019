@@ -144,9 +144,9 @@ The majority of mixers on Ethereum under active development are SNARK based. The
 
 |  |**Miximus**|**Semaphore**|**Hopper**|**Tornado**|**Heiswap**|
 |---|---:|---:|---:|---:|---:|
-| Deposit Cost | 1,886,209 |1,146,008|<1mm|888,054|<200,000|
-| Withdraw Cost | 605,181 |816,249|~660k|692,133|~1,250,000|
-| MT Depth | 29 |20|15|16|n/a|
+| Deposit Cost | 1,886,209 |1,146,008|<1mm|1,088,354|<200,000|
+| Withdraw Cost | 605,181 |816,249|~660k|301,233|~1,250,000|
+| MT Depth | 29 |20|15|20|n/a|
 | MT Max items | 536,870,912 |1,048,576|32,768|65,536|n/a|
 | AVG Proving time (ms) | 3,600 (native) |63,000 (browser)|10,000 (iPhone 7)|6,116 (browser)|-|
 | Constraints per-level |812|1,320|~700|-|-|
