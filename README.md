@@ -227,12 +227,17 @@ Deployed to: --
 * https://arxiv.org/abs/1904.00905
 
 ---
-### Tornado Mixer 
+### Tornado Cash
 
 Development Status: Active
-Deployed to: Live on Kovan, Mainnet  (limit .1 ETH)
+Deployed to: Live on Kovan, Mainnet  (limit .1, 1, 10 ETH)
 
-* Mainnet address: [0x94A1B5CdB22c43faab4AbEb5c74999895464Ddaf](https://etherscan.io/address/0x94A1B5CdB22c43faab4AbEb5c74999895464Ddaf)
+* Mainnet address, .1 ETH: [0x12D66f87A04A9E220743712cE6d9bB1B5616B8Fc](0x12D66f87A04A9E220743712cE6d9bB1B5616B8Fc)
+* Mainnet address, 1 ETH: eth-01.tornadocash.eth or [0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936](https://etherscan.io/address/0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936)
+* Mainnet address, 10 ETH: eth-10.tornadocash.eth or [0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF](https://etherscan.io/address/0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF)
+* Mainnet address 100 ETH: eth-100.tornadocash.eth or [0xA160cdAB225685dA1d56aa342Ad8841c3b53f291](https://etherscan.io/address/0xA160cdAB225685dA1d56aa342Ad8841c3b53f291)
+* Old Mainnet address: [0x94A1B5CdB22c43faab4AbEb5c74999895464Ddaf](https://etherscan.io/address/0x94A1B5CdB22c43faab4AbEb5c74999895464Ddaf)
+* Website: [stage.tornado.cash](https://stage.tornado.cash/)
 * Kovan Address: [0x1Cea940cA15a303A0E01B7F8589F39fF34308DB2](https://kovan.etherscan.io/address/0x1Cea940cA15a303A0E01B7F8589F39fF34308DB2)
 * https://github.com/peppersec/tornado-mixer
 * Team: [Peppersec](https://peppersec.com/) (Roman 1, Roman 2, Alex)
